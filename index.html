@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="quiz-start-container">
+            <img src="./assets/quizlogo.svg" alt="quiz logo">
+            <div class="start-btn-container">
+                <button id="start-btn" >Start Now >>></button>
+            </div>
+            <p id="highest-score">Highest Score: 00/00</p>
+        </div>
+        <div class="question-page">
+            <div class="content">
+                <div class="nav">
+                    <img src="./assets/quizlogo.svg" alt="logo">
+                    <div class="question-number-container">
+                        <img id="music" src="./assets/mute.svg" alt="music button">
+                        <p id="question-number"></p>
+                    </div>
+                </div>
+                <div class="question-container">
+                    <h2 id="question" >Inside which HTML element do we put the JavaScript? </h2>
+                </div>
+                <div class="timer-container">
+                    <p id="timeup">time-up</p>
+                    <h3 id="timer">00:30</h3>
+                </div>
+                <div class="options-container">
+                    <button id="buttton1">button 1 </button>
+                    <button id="buttton2">button 2 </button>
+                    <button id="buttton3">button 3 </button>
+                    <button id="buttton4">button 4 </button>
+                </div>
+                <div class="next-container">
+                    <button>Skip ></button>
+                    <button id="Result">Result ></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="result-page">
+            <div class="result-nav">
+                <img src="./assets/quizlogo.svg" alt="quiz logo">
+                <h2>Result</h2>
+            </div>
+            <div class="score-container">
+                <div class="red">
+                    <div class="green-container">
+
+                    </div>
+                    <img id="green" src="./assets/left.svg" alt="">
+                    <img src="./assets/right.svg" alt="">
+                </div>
+                
+            </div>
+            <div class="percentage-score">
+                <h3 id="win-percent">70%</h3>
+                <h3 id="correct-answers">22/25</h3>
+                <h3 id="lose-percent">30%</h3>
+            </div>
+            <h2>“Keep learning, you have a good score!”</h2>
+            <div class="retry-btn-container">
+                <button id="retry-btn" > &lt;&lt;&lt; Retry </button>
+            </div>
+            <div class="share-score">
+                <p>share your score:</p>
+                <div class="SM-logos">
+                    <img src="./assets/linkedin.svg" alt="">
+                    <img src="./assets/twitter.svg" alt="">
+                    <img src="./assets/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <p class="myname">Made with ❤️ by Rishabh</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
